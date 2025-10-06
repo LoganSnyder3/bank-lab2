@@ -67,7 +67,7 @@ elif option == '4':
         print("New balance for susan: $", difference)
     else:
         print("Account not found.")
-elif option == '5':
+
         
         
     
