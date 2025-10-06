@@ -32,3 +32,18 @@ elif option == '3':
     if account == "john":
         sum = 150.50 + balance
         print("New balance for john: $", sum)
+    elif account == "zach":
+        sum = 200.75 + balance
+        print("New balance for zach: $", sum)
+    elif account == "Paul":
+        sum = 300.00 + balance
+        print("New balance for Paul: $", sum)
+    elif account == "mary":
+        sum = 100.25 + balance
+        print("New balance for mary: $", sum)
+    elif account == "susan":
+        sum = 250.00 + balance
+        print("New balance for susan: $", sum)
+    else:
+        print("Account not found.")
+    
