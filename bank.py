@@ -23,3 +23,12 @@ elif option == '2':
         print("Balance for mary: $100.25")
     elif account == "susan":
         print("Balance for susan: $250.00")
+    else:
+        print("Account not found.")
+elif option == '3':
+    account = input("Enter account name: ")
+    balance = input("Enter amount to deposit: ")
+    balance = int(balance)
+    if account == "john":
+        sum = 150.50 + balance
+        print("New balance for john: $", sum)
