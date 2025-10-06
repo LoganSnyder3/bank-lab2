@@ -13,7 +13,13 @@ if option == '1':
     print("john","zach","Paul","mary","susan")
 elif option == '2':
     account = input("Enter account name: ")
-    if account in ["john","zach","Paul","mary","susan"]:
-        print(f"{account}'s balance is $1000")
-    else:
-        print("Account not found.")
+    if account == "john":
+        print("Balance for john: $150.50")
+    elif account == "zach":
+        print("Balance for zach: $200.75")
+    elif account == "Paul":
+        print("Balance for Paul: $300.00")
+    elif account == "mary":
+        print("Balance for mary: $100.25")
+    elif account == "susan":
+        print("Balance for susan: $250.00")
