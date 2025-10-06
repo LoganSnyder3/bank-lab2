@@ -46,4 +46,24 @@ elif option == '3':
         print("New balance for susan: $", sum)
     else:
         print("Account not found.")
-    
+elif option == '4':
+    account = input("Enter account name: ")
+    balance = input("Enter amount to withdraw: ")
+    balance = int(balance)
+    if account == "john":
+        difference = 150.50 - balance
+        print("New balance for john: $", difference)
+    elif account == "zach":
+        difference = 200.75 - balance
+        print("New balance for zach: $", difference)
+    elif account == "Paul":
+        difference = 300.00 - balance
+        print("New balance for Paul: $", difference)
+    elif account == "mary":
+        difference = 100.25 - balance
+        print("New balance for mary: $", difference)
+    elif account == "susan":
+        difference = 250.00 - balance
+        print("New balance for susan: $", difference)
+    else:
+        print("Account not found.")
