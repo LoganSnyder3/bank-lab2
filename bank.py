@@ -1,5 +1,5 @@
 # Banking System - Lab 2
-# By: Logan Snyder
+# By: ryder scott 
 # Date: 10/10/2025
 
 # List of account names
