@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Banking System - Lab 2
 # By: Logan Snyder
 # Date: 10/10/2025
@@ -11,7 +9,6 @@ account_names = ["john", "zach", "paul", "mary", "susan"]
 account_balances = [150, 200, 300, 100, 250]
 
 #Main menu
->>>>>>> 018a8ab39677286ec791bcc457bc6c73d566f7be
 check = False
 while check == False:
     print("- Main Menu -")
@@ -22,76 +19,6 @@ while check == False:
     print("5. Transfer")
     print("6. Add account")
     print("7. Remove account")
-<<<<<<< HEAD
-    print("8. Save accounts to file")
-    print("9. Quit")
-    option = input("Choose an option (1-9): ")
-    if option == '1':
-        print("john","zach","Paul","mary","susan")
-    elif option == '2':
-        account = input("Enter account name: ")
-        if account == "john":
-            print("Balance for john: $150.50")
-        elif account == "zach":
-            print("Balance for zach: $200.75")
-        elif account == "Paul":
-            print("Balance for Paul: $300.00")
-        elif account == "mary":
-            print("Balance for mary: $100.25")
-        elif account == "susan":
-            print("Balance for susan: $250.00")
-        else:
-            print("Account not found.")
-    elif option == '3':
-        account = input("Enter account name: ")
-        balance = input("Enter amount to deposit: ")
-        balance = int(balance)
-        if account == "john":
-            sum = 150.50 + balance
-            print("New balance for john: $", sum)
-        elif account == "zach":
-            sum = 200.75 + balance
-            print("New balance for zach: $", sum)
-        elif account == "Paul":
-            sum = 300.00 + balance
-            print("New balance for Paul: $", sum)
-        elif account == "mary":
-            sum = 100.25 + balance
-            print("New balance for mary: $", sum)
-        elif account == "susan":
-            sum = 250.00 + balance
-            print("New balance for susan: $", sum)
-        else:
-            print("Account not found.")
-    elif option == '4':
-        account = input("Enter account name: ")
-        balance = input("Enter amount to withdraw: ")
-        balance = int(balance)
-        if account == "john":
-            difference = 150.50 - balance
-            print("New balance for john: $", difference)
-        elif account == "zach":
-            difference = 200.75 - balance
-            print("New balance for zach: $", difference)
-        elif account == "Paul":
-            difference = 300.00 - balance
-            print("New balance for Paul: $", difference)
-        elif account == "mary":
-            difference = 100.25 - balance
-            print("New balance for mary: $", difference)
-        elif account == "susan":
-            difference = 250.00 - balance
-            print("New balance for susan: $", difference)
-        else:
-            print("Account not found.")
-    elif option == "5":
-        input("Enter your account name: ")
-    
-        
-        
-    elif option == "9":
-        check = True
-=======
     print("8. Quit")
 
     option = input("Choose an option (1-8): ")
@@ -190,4 +117,3 @@ while check == False:
 
     else:
         print("Invalid option. Please choose a number from 1 to 8.")
->>>>>>> 018a8ab39677286ec791bcc457bc6c73d566f7be
